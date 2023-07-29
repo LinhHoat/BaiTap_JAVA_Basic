@@ -101,5 +101,10 @@ public class NhanVien {
 		System.out.println("--- THÔNG TIN NHÂN VIÊN ---");
 		System.out.println(" + " + maNV + " - " + cccd +" - " + tenNV + " - " + namSinh + " - " + gioiTinh + " - " + soDT + " - "+ chucVu);
 	}
-
+	
+	public static void main(String[] args) {
+		NhanVien nhanvien1 = new NhanVien("",0,"","","",0,"");
+		nhanvien1.nhapThongTinNV();
+		nhanvien1.hienThiThongTinNV();
+	}
 }
